@@ -35,7 +35,6 @@ To run the School Weather Project on your machine, follow these steps:
 ## Technologies Used
 
 - **C#:** The primary programming language used for building the application logic.
-- **WPF (Windows Presentation Foundation):** The graphical framework for creating the user interface.
 - **JSON:** Utilized for handling and parsing data from the weather API.
 
 ## Contributing
