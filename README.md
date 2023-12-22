@@ -44,7 +44,7 @@ Contributions to the School Weather Project are welcome! If you find any issues 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](License) file for details.
 
 ## Acknowledgments
 
