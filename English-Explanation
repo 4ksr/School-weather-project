@@ -1,0 +1,32 @@
+Code Structure:
+
+    The application consists of a Windows Forms (WinForms) project.
+    The main form (Form1) includes textboxes for user input, labels to display weather information, and a picture box to show the weather condition icon.
+
+API Integration:
+
+    The OpenWeather API is used to fetch weather data.
+    The API key and the location are used to construct the API URL.
+    The FetchAndDisplayWeatherInfo method sends a request to the API, retrieves the JSON response, and parses it to extract relevant information.
+
+User Interface:
+
+    Labels are initially hidden and become visible after fetching weather data.
+    The weather information, including city name, temperature, and condition, is displayed in the corresponding labels.
+    The weather condition icon is displayed in a PictureBox.
+
+Exception Handling:
+
+    The code includes exception handling to manage errors during API requests or data parsing.
+    Error messages are displayed in a MessageBox in case of an exception.
+
+Event Handling:
+
+    The application responds to button clicks and updates triggered by textbox text changes.
+    Both the "Search" button and the Enter key trigger the weather information update.
+
+Instructions for Use:
+
+    Enter the desired location in the textbox.
+    Click the "Search" button or press Enter.
+    Weather information, including city name, temperature, and condition, will be displayed.
