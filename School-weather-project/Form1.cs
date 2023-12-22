@@ -16,8 +16,6 @@ namespace School
         {
             InitializeComponent();
             apiUrl = $"http://api.weatherapi.com/v1/current.json?key={apiKey}&q={location}&aqi=no";
-
-            // Hide the labels initially
             labelCityName.Visible = false;
             labelTemperature.Visible = false;
             labelCondition.Visible = false;
@@ -52,23 +50,19 @@ namespace School
                         string jsonResponse = await response.Content.ReadAsStringAsync();
                         JObject weatherData = JObject.Parse(jsonResponse);
 
-                        // Extract relevant information
                         string cityName = weatherData["location"]["name"].ToString();
                         string temperature = weatherData["current"]["temp_c"].ToString();
                         string condition = weatherData["current"]["condition"]["text"].ToString();
                         string iconUrl = weatherData["current"]["condition"]["icon"].ToString();
 
-                        // Display weather information in labels
                         labelCityName.Text = $"City: {cityName}";
                         labelTemperature.Text = $"Temperature: {temperature}°C";
                         labelCondition.Text = $"Condition: {condition}";
 
-                        // Show the labels
                         labelCityName.Visible = true;
                         labelTemperature.Visible = true;
                         labelCondition.Visible = true;
 
-                        // Load the weather condition icon into pictureBox1
                         pictureBox1.ImageLocation = "http:" + iconUrl;
                     }
                     else
