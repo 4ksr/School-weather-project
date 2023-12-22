@@ -39,9 +39,9 @@ To run the School Weather Project on your machine, follow these steps:
 - 
 ## explanations in both Arabic and English:
 
-- [**English Explanation**](#English-Explanation)
+- [**English Explanation**](English-Explanation)
 
-- [**شرح باللغة العربية**](#Arabic-Explanation)
+- [**شرح باللغة العربية**](Arabic-Explanation)
 
 ## Contributing
 
