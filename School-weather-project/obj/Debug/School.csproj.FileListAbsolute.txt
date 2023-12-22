@@ -1,0 +1,13 @@
+F:\c#\School\bin\Debug\School.exe.config
+F:\c#\School\bin\Debug\School.exe
+F:\c#\School\bin\Debug\School.pdb
+F:\c#\School\bin\Debug\Newtonsoft.Json.dll
+F:\c#\School\bin\Debug\Newtonsoft.Json.xml
+F:\c#\School\obj\Debug\School.csproj.AssemblyReference.cache
+F:\c#\School\obj\Debug\School.Form1.resources
+F:\c#\School\obj\Debug\School.Properties.Resources.resources
+F:\c#\School\obj\Debug\School.csproj.GenerateResource.cache
+F:\c#\School\obj\Debug\School.csproj.CoreCompileInputs.cache
+F:\c#\School\obj\Debug\School.csproj.CopyComplete
+F:\c#\School\obj\Debug\School.exe
+F:\c#\School\obj\Debug\School.pdb
