@@ -41,7 +41,7 @@ To run the School Weather Project on your machine, follow these steps:
 
 - [**English Explanation**](#English-Explanation)
 
-- [**شرح باللغة العربية**](#شرح-باللغة-العربية)
+- [**شرح باللغة العربية**](#Arabic-Explanation)
 
 ## Contributing
 
