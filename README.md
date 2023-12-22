@@ -36,6 +36,12 @@ To run the School Weather Project on your machine, follow these steps:
 
 - **C#:** The primary programming language used for building the application logic.
 - **JSON:** Utilized for handling and parsing data from the weather API.
+- 
+Certainly! Here are the links to the explanations in both Arabic and English:
+
+- [**English Explanation**](#english-explanation)
+
+- [**شرح باللغة العربية**](#شرح-باللغة-العربية)
 
 ## Contributing
 
